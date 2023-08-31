@@ -20,4 +20,17 @@ function get()
     escreve();
 }
 get();
+/*Explique o trecho de código abaixo:
+respeito();
+function respeito(){
+console.log("Press F to pay respects.");
+Aqui o usuário chama a função antes dessa função ser criada, esse codigo esta dando certo porque uma função no javascript sofre hosting indo para o topo do código
+}
+ Explique o trecho de código abaixo:
+respeito();
+respeito = function (){
+console.log("Press F to pay respects.");
+}
+Aqui a única diferença é que a função não é statement que não sofre hosting, logo esse código não vei ser executado da forma desejada pois a função está sendo chamada antes dela existir.
+*/
 
